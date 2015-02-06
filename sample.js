@@ -23,6 +23,7 @@ var undef = undefined;
 var nil = null;
 var bool = true;
 var number = 42;
+var nan = NaN;
 var sString = 'string';
 var dString = "string";
 
