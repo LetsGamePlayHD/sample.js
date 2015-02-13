@@ -84,6 +84,11 @@ function foo (bar, buz = 'def', ...rest) {
 
     // fat arrow
     var fiz = x => x + x;
+
+    // generator
+    function* generator() {
+       yield 'res';
+    }
 }
 
 foo.prototype = {};
